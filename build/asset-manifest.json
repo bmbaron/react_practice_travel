@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/react_practice_portfolio/static/css/main.07567db3.css",
+    "main.js": "/react_practice_portfolio/static/js/main.62f50dc1.js",
+    "static/media/ben.jpeg": "/react_practice_portfolio/static/media/ben.6eb4d1bddf8a8f353122.jpeg",
+    "index.html": "/react_practice_portfolio/index.html",
+    "main.07567db3.css.map": "/react_practice_portfolio/static/css/main.07567db3.css.map",
+    "main.62f50dc1.js.map": "/react_practice_portfolio/static/js/main.62f50dc1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.07567db3.css",
+    "static/js/main.62f50dc1.js"
+  ]
+}
