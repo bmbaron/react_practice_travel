@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/react_practice_travel/static/css/main.07567db3.css",
+    "main.js": "/react_practice_travel/static/js/main.18bfd631.js",
+    "static/media/ben.jpeg": "/react_practice_travel/static/media/ben.6eb4d1bddf8a8f353122.jpeg",
+    "index.html": "/react_practice_travel/index.html",
+    "main.07567db3.css.map": "/react_practice_travel/static/css/main.07567db3.css.map",
+    "main.18bfd631.js.map": "/react_practice_travel/static/js/main.18bfd631.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.07567db3.css",
+    "static/js/main.18bfd631.js"
+  ]
+}
