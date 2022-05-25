@@ -1,14 +1,13 @@
 {
   "files": {
-    "main.css": "/react_practice_travel/static/css/main.07567db3.css",
-    "main.js": "/react_practice_travel/static/js/main.18bfd631.js",
-    "static/media/ben.jpeg": "/react_practice_travel/static/media/ben.6eb4d1bddf8a8f353122.jpeg",
+    "main.css": "/react_practice_travel/static/css/main.d295c978.css",
+    "main.js": "/react_practice_travel/static/js/main.f2ff3361.js",
     "index.html": "/react_practice_travel/index.html",
-    "main.07567db3.css.map": "/react_practice_travel/static/css/main.07567db3.css.map",
-    "main.18bfd631.js.map": "/react_practice_travel/static/js/main.18bfd631.js.map"
+    "main.d295c978.css.map": "/react_practice_travel/static/css/main.d295c978.css.map",
+    "main.f2ff3361.js.map": "/react_practice_travel/static/js/main.f2ff3361.js.map"
   },
   "entrypoints": [
-    "static/css/main.07567db3.css",
-    "static/js/main.18bfd631.js"
+    "static/css/main.d295c978.css",
+    "static/js/main.f2ff3361.js"
   ]
 }
