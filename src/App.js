@@ -1,15 +1,20 @@
 import React from 'react';
 import './App.css';
-import Info from './components/Info';
-import About from './components/About';
-import Footer from './components/Footer';
+import Header from './components/Header';
+import Place from './components/Place';
+import data from "./data"
 
 export default function App() {
+  const places = data.map((place) => {
+    return <Place data={place} />;
+  });
+  console.log(places);
   return (
-    <div className='main-container'>
-      <Info />
-      <About />
-      <Footer />
+    <div>
+      <Header />
+      <section className="places-list">
+          {places}
+      </section>
     </div>
-  );
+    );
 }

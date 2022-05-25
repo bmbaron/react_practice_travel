@@ -3,10 +3,96 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  background-color: #23252C;
-  color: white;
+  background-color: white;
+  color: black;
 }
 
+header {
+  height: 50px;
+  line-height: 50px;
+  margin: 0;
+  text-align: center;
+  font-size: 2rem;
+  color: white;
+  background-color: #F55A5A;
+}
+
+.place {
+  display: flex;
+  margin: 2rem;
+  justify-content: right;
+}
+
+.place > div {
+  margin: 0.5rem;
+}
+
+.place .left img {
+  object-fit: cover;
+  height: 100%;  
+  width: 300px;
+  border-radius: 10px;
+}
+
+.place .right {
+  width: 60%;
+}
+
+.place .right .location {
+  display: flex;
+  width: 70%;
+  justify-content: space-around;
+}
+
+.place .right .location > a {
+  font-size: 0.8rem;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  background-color: #F55A5A;
+  text-align: center;
+  padding: 5px;
+}
+
+.place .right .location .location-name {
+}
+
+.place .right .location > a:hover{
+  font-weight: bold;
+}
+
+.place .right .about {
+  padding: 0.5rem;
+}
+.place .right .about > * {
+  margin: 0.5rem;
+}
+
+.place .right .about .dates {
+  color: darkslategray;
+  font-style: italic;
+}
+
+
+@media only screen and (max-width: 700px) {
+  .place {
+    flex-direction: column;
+  }
+  .place .left img {
+    width: 100%;
+  }
+  .place .right {
+    width: 100%;
+  }
+  .place .right .location {
+    width: 100%;
+  }
+  .place .right .location .location-name {
+    margin-left: -1rem;
+  }
+}
+
+/* 
 .main-container {
   width: 50%;
   margin: auto;
@@ -80,4 +166,4 @@ body {
   text-align: center;
   color: #918E9B;
   background-color: #161619;
-}
+} */
